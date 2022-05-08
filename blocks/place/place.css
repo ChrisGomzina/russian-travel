@@ -1,0 +1,23 @@
+.place {
+  display: grid;
+  gap: 40px 48px;
+/*/max-width: calc(100% - (148px*2));*/
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: auto;
+}
+
+.place:first-of-type {
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    /*max-width: calc(100% - (16px*2));*/
+    width: 100%;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: auto;
+    gap: 32px;
+    justify-items: center;
+  }
+}

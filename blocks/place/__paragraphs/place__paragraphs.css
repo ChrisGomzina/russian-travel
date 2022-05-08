@@ -1,0 +1,10 @@
+.place__paragraphs {
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
+    max-width: calc(100% - (16px*2));
+  }
+}
