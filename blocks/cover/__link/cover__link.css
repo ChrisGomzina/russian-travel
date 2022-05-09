@@ -1,0 +1,21 @@
+/*.cover__link {
+  position: relative;
+  aspect-ratio: 8 / 5;
+}*/
+
+.cover__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__link:hover {
+  background: #2A2C2F;
+  opacity: .8;  
+}

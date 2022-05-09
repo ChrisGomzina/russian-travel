@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .photo {
+    max-width: 928px;
     grid-template-columns: repeat(3, minmax(min-content, max-content));
     grid-template-rows: auto;
   }
@@ -17,12 +18,14 @@
 
 @media screen and (max-width: 768px) {
   .photo {
+    margin-top: 88px;
+    max-width: 720px;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: auto;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .photo {
     max-width: 288px;
     margin-top: 64px;

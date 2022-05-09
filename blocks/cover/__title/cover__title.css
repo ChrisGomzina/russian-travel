@@ -3,4 +3,13 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  text-decoration-line: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 420px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }
