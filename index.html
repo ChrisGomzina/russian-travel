@@ -12,15 +12,15 @@
     <header class="header">
       <div class="header__logo"></div>
       <ul class="header__lang-links">
-        <li class="header__lang-item"><a class="header__lang-link header__lang-link_ru" href="#" lang="en">Ru</a></li>
-        <li class="header__lang-item"><a class="header__lang-link header__lang-link_en" href="#" lang="en">En</a></li>
+        <li class="header__lang-item"><a class="header__lang-link" href="#" lang="en">Ru</a></li>
+        <li class="header__lang-item"><a class="header__lang-link header__lang-link_selected" href="#" lang="en">En</a></li>
       </ul>
     </header>
     <!--Область основного контента-->
     <main class="content">
       <!--Блок lead-->
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__image-item">
           <img class="lead__image" src="./images/lead-polka.jpg" alt="Спящая девушка в поезде">
@@ -36,11 +36,11 @@
           Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item"><span class="intro__list-item_bold">Часовых поясов</span> 11</li>
-          <li class="intro__list-item"><span class="intro__list-item_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li class="intro__list-item"><span class="intro__list-item_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li class="intro__list-item"><span class="intro__list-item_bold">Природных заповедников</span> 105</li>
-          <li class="intro__list-item"><span class="intro__list-item_bold">Аэропортов</span> 241</li>
+          <li class="intro__list-item"><span class="intro__list-item-span">Часовых поясов</span> 11</li>
+          <li class="intro__list-item"><span class="intro__list-item-span">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li class="intro__list-item"><span class="intro__list-item-span">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li class="intro__list-item"><span class="intro__list-item-span">Природных заповедников</span> 105</li>
+          <li class="intro__list-item"><span class="intro__list-item-span">Аэропортов</span> 241</li>
         </ul>
       </section>
       <!--Блок photo-->
@@ -61,11 +61,11 @@
       <!--Блок places-->
       <section class="places">
         <!--Место: Куршская коса-->
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__website-url-heading">URL</p>
-            <a class="place__website-link" href="http://park-kosa.ru">park-kosa.ru</a>
+            <p class="place__website-url-heading">url</p>
+            <a class="place__website-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Фото Куршской косы">
           <div class="place__paragraphs">
@@ -76,13 +76,13 @@
               самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. 
               Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
+        </article>
         <!--Место: Кольский-->
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__website-url-heading">URL</p>
-            <a class="place__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+            <p class="place__website-url-heading">url</p>
+            <a class="place__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Фото Кольского полуострова">
           <div class="place__paragraphs">
@@ -93,13 +93,13 @@
               Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. 
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
           </div>
-        </div>
+        </article>
         <!--Место: Алтай-->
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__website-url-heading">URL</p>
-            <a class="place__website-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+            <p class="place__website-url-heading">url</p>
+            <a class="place__website-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="Фото Алтая">
           <div class="place__paragraphs">
@@ -111,13 +111,13 @@
               По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. 
               И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
+        </article>
         <!--Место: Зимний Байкал-->
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__website-url-heading">URL</p>
-            <a class="place__website-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <p class="place__website-url-heading">url</p>
+            <a class="place__website-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Фото зимнего Байкала">
           <div class="place__paragraphs">
@@ -127,13 +127,13 @@
               Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
+        </article>
         <!--Место: Карелия-->
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__website-url-heading">URL</p>
-            <a class="place__website-link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+            <p class="place__website-url-heading">url</p>
+            <a class="place__website-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Фото Карелии">
           <div class="place__paragraphs">
@@ -143,30 +143,27 @@
               В девственном лесу на сотню километров не встретишь тропы. 
               А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
       <!--Блок cover-->
       <section class="cover">
-        <div class="cover__background">
-          <div class="cover__overlay"></div>
-          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <div class="cover__text">
-              <h2 class="cover__title">До Байкала «на собаках»</h2>
-              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-            </div>
-          </a>
-        </div>
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
       </section>
     </main>
     <!--Подвал сайта-->
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-        <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-        <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-        <li class="footer__link-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-        <li class="footer__link-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-      </ul>
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2022. Christina Gomzina</p>
     </footer>
   </div>

@@ -1,0 +1,5 @@
+  @media screen and (max-width: 680px) {
+    .footer__nav {
+      min-width: calc(100% - (16px*2));
+    }
+  }
