@@ -5,10 +5,6 @@
   text-decoration-line: none;
 }
 
-.header__lang-link:first-of-type {
-  margin-right: 18px;
-}
-
 .header__lang-link:hover {
   opacity: .8;
   transition: opacity .4s linear; 
